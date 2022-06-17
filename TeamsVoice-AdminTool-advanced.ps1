@@ -295,15 +295,18 @@ function Show-Menu
     )
 
 
-    
-    Write-Host "1: Press '1' for setting up user phone numbers."
-    Write-Host "2: Press '2' for setting up ressource accound including call queue."
-    Write-Host "3: Press '3' for user telephone number management."
-    Write-Host "4: Press '4' for Adding/changing telephone number to Auto Attendant account"
-    Write-Host "5: Press '5' for assigning/changing caller ID policies"
-    Write-Host "6: Press '6' for assigning/changing User calling policies"
-    Write-Host "7: Press '7' for assigning/changing Auto Attendant voice routing policies (Outbound forwarding)"
-    Write-Host "Q: Press 'Q' to quit."
+    Write-Host ""
+    Write-Host ""
+    Write-Host "1: Press '1' for setting up user phone numbers." -ForegroundColor Gray
+    Write-Host "2: Press '2' for setting up ressource accound including call queue." -ForegroundColor Gray
+    Write-Host "3: Press '3' for user telephone number management." -ForegroundColor Gray
+    Write-Host "4: Press '4' for Adding/changing telephone number to Auto Attendant account" -ForegroundColor Gray
+    Write-Host "5: Press '5' for assigning/changing caller ID policies" -ForegroundColor Gray
+    Write-Host "6: Press '6' for assigning/changing User calling policies" -ForegroundColor Gray
+    Write-Host "7: Press '7' for assigning/changing Auto Attendant voice routing policies (Outbound forwarding)" -ForegroundColor Gray
+    Write-Host "Q: Press 'Q' to quit." -ForegroundColor Red
+    Write-Host ""
+    Write-Host ""
 }
 do
  {
